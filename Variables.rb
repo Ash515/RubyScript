@@ -56,3 +56,18 @@ twoobj=Two.new
 twoobj.display
 
 
+#Local Variable
+
+def Leapyear(year)
+    _local = "!"  #local variables
+    puts _local
+    if year%4 !=100
+        puts "Not a Leap year "
+    else
+        puts "It is a leap year "
+    end
+end
+
+Leapyear(1996)
+
+
